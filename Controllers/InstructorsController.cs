@@ -33,7 +33,7 @@ namespace ContUniversity.Controllers
                 .Include(i => i.CourseAssignments)
                 .ThenInclude(i => i.Course)
                 .ThenInclude(i => i.Department)
-                .AsNoTracking()
+                // .AsNoTracking() Removed to allow the instructors page selections to work.
                 .OrderBy(i => i.LastName)
                 .ToListAsync();
 
