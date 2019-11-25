@@ -5,6 +5,17 @@ body {
     padding-bottom: 20px;
 }
 
+.jumbotron {
+    background-image: url('../images/gautam-krishnan-47gcgwuuhb0-unsplash.jpg');
+    background-size: 100% auto;
+    text-align: center;
+    color: azure;
+}
+
+th, td {
+    padding: 0 3px;
+}
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
