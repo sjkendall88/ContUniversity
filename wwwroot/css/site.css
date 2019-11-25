@@ -15,7 +15,11 @@ body {
     background-image: url('../images/gautam-krishnan-47gcgwuuhb0-unsplash.jpg');
     background-size: 100% auto;
     text-align: center;
-    color: azure;
+    color:ghostwhite;
+}
+
+.jumbotron > h1 {
+    background-color: transparent;
 }
 
 th, td {
