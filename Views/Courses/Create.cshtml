@@ -4,9 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h2>Create</h2>
-
-<h4>Course</h4>
+<h2>Create Course</h2>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -32,17 +30,17 @@
                 <select asp-for="DepartmentID" class="form-control" asp-items="ViewBag.DepartmentID">
                     <option value="">-- Select Department --</option>
                 </select>
-                <span asp-validation-for="DepartmentID" class="text-danger" />s
+                <span asp-validation-for="DepartmentID" class="text-danger" />
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Create" class="btn btn-default buttonStyle" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a class="buttonStyle" asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
