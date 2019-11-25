@@ -1,8 +1,14 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
+* {
+    font-family: 'Gupter', serif;
+    background-color: azure;
+}
+
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: azure;
 }
 
 .jumbotron {
@@ -60,4 +66,32 @@ th, td {
     .carousel-caption {
         display: none;
     }
+}
+
+.navbar, .navbar-inverse .navbar-nav > li > a {
+    background-color: mediumblue;
+    color: aliceblue;
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+        color: #9d9d9d;
+        background-color: mediumblue;
+    }
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #9d9d9d;
+    background-color: mediumblue;
+}
+
+.navbar-inverse .navbar-brand {
+    color: aliceblue;
+    background-color: mediumblue;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    background-color: mediumblue;
+}
+
+nav > .container {
+    background-color: mediumblue;
 }
